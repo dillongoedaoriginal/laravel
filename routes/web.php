@@ -16,7 +16,6 @@ use App\Models\Posts;
 */
 
 Route::get('/', function () {
-    phpinfo();
     return view('welcome');
 });
 
