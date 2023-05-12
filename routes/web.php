@@ -27,8 +27,8 @@ Route::get('/posts', function () {
 });
 
 Route::get('/other', function () {
-    $posts = Posts::all();
+   // $posts = Posts::all();
 
-    return view('other', ['posts' => $posts]);
+    return view('other');
 });
 
